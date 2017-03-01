@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="#50FFFFFF"
+    android:orientation="horizontal"
+    android:padding="@dimen/activity_horizontal_margin">
+
+    <!-- Affichage de l'image de gauche -->
+    <LinearLayout
+        android:id="@+id/thumbnail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginRight="5dp"
+        android:background="@drawable/chef64"
+        android:padding="3dp">
+
+        <ImageView
+            android:id="@+id/list_image"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:src="@drawable/chef64" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="80dp">
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/thumbnail"
+            android:layout_toRightOf="@+id/thumbnail"
+            android:text="Nom de la recette"
+            android:fontFamily="sans-serif-thin"
+            android:textColor="#040404"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:typeface="sans" />
+
+        <!-- Nom de la recette -->
+        <TextView
+            android:id="@+id/action"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/name"
+            android:fontFamily="sans-serif"
+            android:layout_marginTop="1dip"
+            android:layout_toRightOf="@+id/thumbnail"
+            android:text="Lorem ipsum dolor sit amet consectetur adipisicing elit.... Lorem ipsum dolor sit amet consectetur adipisicing elit..."
+            android:textColor="#343434"
+            android:textSize="12dp" />
+
+    </LinearLayout>
+
+
+    <!-- Navigation à droite pour passer au détail -->
+    <LinearLayout
+        android:id="@+id/arrow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true">
+
+        <ImageView
+            android:id="@+id/arrow_detail"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/arrow" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>
