@@ -29,7 +29,7 @@ public class MainActivity extends AppCompatActivity {
 
     // URL pour accéder au JSON
     // private static String url = "http://api.androidhive.info/contacts/";
-    private static String url = "http://www.claudebueno.com/test2.json";
+    private static String url = "http://www.claudebueno.com/doc/test2.json";
 
     ArrayList<HashMap<String, String>> recetteList;
 
@@ -56,10 +56,10 @@ public class MainActivity extends AppCompatActivity {
             public void onItemClick(AdapterView<?> parent, View view,
                                     int position, long id) {
 
-                // Alerte indiquant quelle position a été cliquée
-                Toast.makeText(getApplicationContext(),
-                        "Click ListItem Number " + position, Toast.LENGTH_LONG)
-                        .show();
+         // Alerte indiquant quelle position a été cliquée
+         Toast.makeText(getApplicationContext(),
+            "Click ListItem Number " + position + "parent: "+ parent + "view: "+ view + "id: "+ id, Toast.LENGTH_LONG)
+            .show();
             }
         });
 
