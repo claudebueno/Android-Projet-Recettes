@@ -13,13 +13,12 @@
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
         android:layout_marginRight="5dp"
-        android:background="@drawable/chef64"
         android:padding="3dp">
 
         <ImageView
             android:id="@+id/list_image"
-            android:layout_width="64dp"
-            android:layout_height="64dp"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
             android:src="@drawable/chef64" />
 
     </LinearLayout>
@@ -30,6 +29,7 @@
         android:orientation="vertical"
         android:paddingLeft="80dp">
 
+        <!-- Nom de la recette -->
         <TextView
             android:id="@+id/name"
             android:layout_width="wrap_content"
@@ -43,9 +43,8 @@
             android:textStyle="bold"
             android:typeface="sans" />
 
-        <!-- Nom de la recette -->
         <TextView
-            android:id="@+id/action"
+            android:id="@+id/intro"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_below="@id/name"

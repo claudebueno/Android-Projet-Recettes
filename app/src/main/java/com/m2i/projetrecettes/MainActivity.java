@@ -1,6 +1,8 @@
 package com.m2i.projetrecettes;
 
 import android.app.ProgressDialog;
+import android.content.res.Resources;
+import android.graphics.drawable.Drawable;
 import android.os.AsyncTask;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -29,7 +31,7 @@ public class MainActivity extends AppCompatActivity {
 
     // URL pour accéder au JSON
     // private static String url = "http://api.androidhive.info/contacts/";
-    private static String url = "http://www.claudebueno.com/doc/test2.json";
+    private static String url = "http://www.claudebueno.com/doc/test3.json";
 
     ArrayList<HashMap<String, String>> recetteList;
 
@@ -99,6 +101,7 @@ public class MainActivity extends AppCompatActivity {
                         JSONObject c = recettes.getJSONObject(i);
 
                         String name = c.getString("nom");
+                        String intro = c.getString("intro");
                         String actions = c.getString("actions");
 
                         // Faire un hmap des recettes
@@ -106,6 +109,7 @@ public class MainActivity extends AppCompatActivity {
 
                         // ajout de chaque recette en clé => valeur
                         recette.put("nom", name);
+                        recette.put("intro", intro);
                         recette.put("actions", actions);
 
                         // ajout d'une recette à la liste des recettes
@@ -152,8 +156,8 @@ public class MainActivity extends AppCompatActivity {
              * */
             ListAdapter adapter = new SimpleAdapter(
                     MainActivity.this, recetteList,
-                    R.layout.list_item, new String[]{"nom", "actions"},
-                    new int[]{R.id.name,R.id.action});
+                    R.layout.list_item, new String[]{"nom", "intro"},
+                    new int[]{R.id.name,R.id.intro});
 
             lv.setAdapter(adapter);
         }

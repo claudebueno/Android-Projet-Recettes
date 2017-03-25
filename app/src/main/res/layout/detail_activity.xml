@@ -16,13 +16,13 @@
         android:id="@+id/single_action"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@id/name" />
+        android:layout_below="@id/single_name" />
 
     <TextView
         android:id="@+id/single_ingredients"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@id/action" />
+        android:layout_below="@id/single_action" />
 
     <Button
         android:text="retour"

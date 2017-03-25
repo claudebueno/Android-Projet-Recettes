@@ -3,6 +3,7 @@
     {
       "recetteId": 1,
       "nom": "Tartiflette",
+      "intro": "La tartiflette est un gratin de pommes de terre, de lardons, d'oignons sur lequel on fait fondre du reblochon",
       "actions": "Couper les pommes de terre en trancehs fines, les faire cuire 5 minutes dans le lait à 80°Cdisposer dans le plat et ajouter le reblochongratiner au four 20 minutes à 200°C",
       "ingredients": {
         "400.0": {
@@ -20,6 +21,7 @@
     {
       "recetteId": 2,
       "nom": "Croque Monsieur",
+      "intro": "Un croque-monsieur ou croquemonsieur est une sorte de sandwich chaud, au pain de mie, au jambon et au fromage",
       "actions": "Faire tremper le gruyère dans le lait.Disposer sur une tranche de pain le jambon et le fromage imbibéet couvrir d\u0027une seconde tranche de pain.Remettre une pincée de fromage au dessus.Griller au four 5 minutes à 200°C.",
       "ingredients": {
         "4.0": {
