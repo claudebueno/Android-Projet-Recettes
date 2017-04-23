@@ -17,13 +17,9 @@ Affichage de deux écrans :
 * Liste des recettes (nom + description) ;
 * Détail pour chaque recette (nom + action + ingrédients).
 
-### == Boîte à idées ==
-
-* Splash screen : écran d'accueil ;
-* Design : background full screen ;
-
 ### == Screenshot ==
 
+#### Version 1
 ![Screeshot](https://github.com/claudebueno/Android-Projet-Recettes/blob/master/android-projet-recettes.png)
 
 
@@ -31,3 +27,9 @@ Affichage de deux écrans :
 
 * 2017-03-28 - Récupération et test avec le JSON généré par un Webservice ;
 * 2017-02-27 - Création de l'application et parsing d'un JSON de test (ListView) ;
+
+### == Boîte à idées ==
+
+* Splash screen : écran d'accueil ;
+* Design : background full screen ;
+
