@@ -20,6 +20,24 @@
     },
     {
       "recetteId": 2,
+      "nom": "Hamburger",
+      "intro": "Un hamburger est un sandwich composé de deux pains de forme ronde garnis de viande hachée et de crudités...",
+      "actions": "Faites revenir les oignons à feux doux. Ajouter les steaks. Une fois saisi, poser une tranche de cheddar sur le steak et laisser fondre. Une fois cuit, déposer le steak et le fromage sur une des tranches du pain que vous aurez auparavant tartinée d'un mélange de ketchup et de moutarde. Ajouter la salade et de petites rondelles de tomates.",
+      "ingredients": {
+        "200.0": {
+          "ingId": 4,
+          "nom": "Steak haché",
+          "unite": "g"
+        },
+        "50.0": {
+          "ingId": 7,
+          "nom": "Cheddar",
+          "unite": "g"
+        }
+      }
+    },
+    {
+      "recetteId": 3,
       "nom": "Croque Monsieur",
       "intro": "Un croque-monsieur ou croquemonsieur est une sorte de sandwich chaud, au pain de mie, au jambon et au fromage",
       "actions": "Faire tremper le gruyère dans le lait.Disposer sur une tranche de pain le jambon et le fromage imbibéet couvrir d\u0027une seconde tranche de pain.Remettre une pincée de fromage au dessus.Griller au four 5 minutes à 200°C.",
