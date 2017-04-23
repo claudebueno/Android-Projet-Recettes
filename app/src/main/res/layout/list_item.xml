@@ -26,7 +26,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        android:paddingLeft="80dp">
+        android:paddingLeft="80dp"
+        android:layout_marginRight="20dp">
 
         <!-- Nom de la recette -->
         <TextView
@@ -45,13 +46,13 @@
         <!-- Présentation de la recette -->
         <TextView
             android:id="@+id/intro"
-            android:layout_width="match_parent"
+            android:layout_width="250dp"
             android:layout_height="wrap_content"
             android:layout_below="@id/name"
             android:fontFamily="sans-serif"
             android:layout_marginTop="1dip"
             android:layout_toRightOf="@+id/thumbnail"
-            android:text="Lorem ipsum dolor sit amet consectetur adipisicing elit.... Lorem ipsum dolor sit amet consectetur adipisicing elit..."
+            android:text="Un hamburger est un sandwich composé de deux pains de forme ronde garnis de viande hachée et de crudités."
             android:textColor="#343434"
             android:textSize="12dp" />
 
