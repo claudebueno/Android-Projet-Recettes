@@ -13,8 +13,9 @@
 
         <ImageView
             android:id="@+id/icon"
-            android:layout_width="64dp"
-            android:layout_height="64dp"
+            android:layout_width="54dp"
+            android:layout_height="54dp"
+            android:layout_marginRight="10dp"
             android:src="@drawable/blkrocket64" />
 
         <TextView

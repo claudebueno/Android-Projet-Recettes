@@ -12,7 +12,6 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
-        android:layout_marginRight="5dp"
         android:padding="3dp">
 
         <ImageView
@@ -43,6 +42,7 @@
             android:textStyle="bold"
             android:typeface="sans" />
 
+        <!-- Présentation de la recette -->
         <TextView
             android:id="@+id/intro"
             android:layout_width="match_parent"
