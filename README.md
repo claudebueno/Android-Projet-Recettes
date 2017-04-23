@@ -24,7 +24,7 @@ Affichage de deux écrans :
 
 ### == Screenshot ==
 
-![Screeshot](https://screenshot.png)
+![Screeshot](https://github.com/claudebueno/Android-Projet-Recettes/blob/master/android-projet-recettes.png)
 
 
 ### == Changelog ==
