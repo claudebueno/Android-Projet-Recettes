@@ -1,7 +1,7 @@
 package com.m2i.projetrecettes;
 
 /**
- * Created by claudebueno on 28/02/2017.
+ * Created by claudebueno on 28/02/2017
  */
 
 import android.app.ProgressDialog;
