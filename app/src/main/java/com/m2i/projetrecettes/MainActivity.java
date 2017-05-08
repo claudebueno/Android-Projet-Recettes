@@ -1,8 +1,10 @@
 package com.m2i.projetrecettes;
 
+/**
+ * Created by claudebueno on 28/02/2017.
+ */
+
 import android.app.ProgressDialog;
-import android.content.res.Resources;
-import android.graphics.drawable.Drawable;
 import android.os.AsyncTask;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -20,8 +22,6 @@ import org.json.JSONObject;
 
 import java.util.ArrayList;
 import java.util.HashMap;
-
-import static java.lang.System.console;
 
 public class MainActivity extends AppCompatActivity {
 
